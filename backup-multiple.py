@@ -6,8 +6,8 @@ with open('devices.txt') as routers:
         Router = {
             'device_type': 'cisco_ios',
             'ip': IP,
-            'username': 'roger',
-            'password': 'cisco'
+            'username': 'admin',
+            'password': 'password'
         }
 
         net_connect = ConnectHandler(**Router)

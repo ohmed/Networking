@@ -4,7 +4,7 @@ from netmiko import ConnectHandler
 CSR = {
     'device_type': 'cisco_ios',
     'ip': '192.168.1.1',
-    'username': 'admin',
+    'username': '{your_username}',
     'password': '{your_password}'
 }
 

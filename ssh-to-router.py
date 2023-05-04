@@ -5,7 +5,7 @@ CSR = {
     'device_type': 'cisco_ios',
     'ip': '192.168.1.1',
     'username': 'admin',
-    'password': 'password'
+    'password': '{your_password}'
 }
 
 # Next establish the SSH connection

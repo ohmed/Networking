@@ -11,7 +11,7 @@ CSR = {
 # Next establish the SSH connection
 net_connect = ConnectHandler(**CSR)
 
-# Then send the command and print the output
+# Then send the command and print the output.
 output = net_connect.send_command('show ip int brief')
 print (output)
 

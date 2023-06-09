@@ -17,4 +17,3 @@ print (output)
 
 # Finally close the connection
 net_connect.disconnect()
-
